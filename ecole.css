@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    margin: 10px 80px;
+    font-family: 'lato';
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:#53e732;
+}
+nav h1{
+    font-family: 'lato';
+    font-size: 30px;
+
+}
+nav .onglets{
+  margin-top: 35px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+}
+
+.articles{
+    margin-top: 30px;
+}
+.articles.articles{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+}
+
+.articles.articles .left img{
+    height: 300px;
+    width: 500px;
+}
+.articles.articles .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+.articles.articles .right p.date{
+    color: #7f7e7e; 
+}
+
+.articles.articles .right p.description{
+    color: #2d2d22;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #494949;
+    
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: 'lato';
+}
+
+footer .social-media{
+    display: flex;
+}
+
+
+footer    .social-media p{
+    font-size: 18px;
+    margin-right: 20px;
+}
